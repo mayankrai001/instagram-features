@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#main{
+    height:100%;
+    width: 100%;
+    background-color:black;
+    position:relative;
+}
+
+.elem{
+    height: 100px;
+    width: 100%;
+    background-color:black;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.elem h1{
+    font-size:6vw;
+    display: flex;
+    position: relative;
+    z-index: 9;
+    mix-blend-mode: difference;
+}
+
+.elem img{
+    max-height: 200px;
+    max-width: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    opacity: 0;
+}
